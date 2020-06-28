@@ -1,0 +1,232 @@
+/* body */
+body {
+    background: #f8f8f8;
+}
+/* body */
+
+
+/* upper site menu */
+.header {
+    height: 180px;
+}
+
+.logo {
+    float:left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+.menu {
+    list-style-type: none;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.menu li:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.menu li:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    border: 1px solid;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    list-style-type: none;
+    height: 35px;
+    width: 150px;
+    background: #d4d0e0;
+}
+
+.menu li a {
+    color: #8B00FF;
+}
+
+
+.menu li a:hover {
+    color:red;
+}
+
+.menu li a:active{
+    color:green;
+}
+
+.menu li a:hover:before{
+    content:">>";
+}
+/* upper site menu */
+
+
+/* catalog page */
+.catalog {
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.features {
+    list-style-image: url(imgs/mini_arrow.jpg);
+    font-size:10px;
+}
+
+.features li {
+    color: #6b1717;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.product_img {
+    outline: 4px solid #2ba1ce;
+}
+
+.product_img:hover {
+    outline: None;
+}
+
+.shoes_size{
+    border: 1px solid #6b1717;
+    border-collapse: collapse;
+}
+
+.shoes_size td{
+    border: 1px solid #6b1717;
+}
+
+.table_header {
+    text-align:center;
+}
+
+.name_row {
+    width: 120px;
+    height: 15px;
+}
+
+.shoes_size td {
+    width: 30px;
+    height: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.text:first-letter{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: brown;
+    font-family: serif;
+    font-style: italic;
+}
+/* catalog page */
+
+
+/* contacts */
+input{
+    width: 200px;
+    background-color: #ffe;
+    color: black;
+}
+
+input[type="text"], textarea, input[type="email"]{
+    font-style: italic;
+}
+
+input[type="email"]:hover{
+    color:red;
+    background: #9fdcc3;
+}
+
+
+input[type="text"]:focus, textarea:focus, input[type="text"], textarea {
+    text-transform: capitalize;
+}
+/* contacts */
+
+.test_table{
+    border: 1px solid #6b1717;
+    border-collapse: collapse;
+}
+
+.test_table td{
+    border: 1px solid #6b1717;
+    height: 15px;
+    width: 15px;
+}
+
+/* index */
+.container {
+    height: 500px;
+    margin: 0 auto;
+    width: 800px;
+
+}
+/* index */
+
+
+/* footer */
+.footer {
+    height: 100px;
+    background: #c8c8c8;
+    clear: both;
+}
+
+.footer_text {
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+/* footer */
+
+
+.catalog_menu {
+    float: left;
+    height: 180px;
+    width:180px;
+    background: #f8f8f8;
+}
+
+.catalog_picture {
+    float: left;
+}
+
+.catalog_description {
+    height: 100px;
+    background: #f8f8f8;
+}
+
+.short_description_block {
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.buy {
+    outline: 2px solid black;
+}
+
+.buy:hover {
+    outline: none;
+    background: #6bd46b;
+}
